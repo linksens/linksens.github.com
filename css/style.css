@@ -1,0 +1,147 @@
+﻿/*
+
+Theme Name: K-Swiss
+
+Theme URI: http://fairyfish.net/
+
+Description: I love K-Swiss.
+
+Version: 0.1
+
+Author: BaiYunshan
+
+Author URI: http://fairyfish.com/
+
+Tags: fixed width, two columns, widgets
+
+*/
+
+
+
+
+/* --------------------------------  structure and tag styles beginning --------------------------------------  */
+* { margin:0px; padding:0px; }
+p { margin:15px 0px; }
+body { margin:0px; padding:0px; background:url(../images/header_bg.gif) repeat-x top; }
+#wrapper { width:960px; background:#fff; color:#333; margin:0px auto; font-size:9pt; font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;  }
+a { color:#333; text-decoration:none; }
+a:hover { color:#C30; text-decoration:underline; }
+.content a:visited { color:#771C69;}
+.homeContent a:visited { color:#771C69;}
+#blogname  { position:absolute; left:500px; top:10px; display:none; }
+#blogdescription { position:absolute; left:500px; top:50px;display:none; }
+h1 { font-size:1.5em; }
+/* --------------------------------  structure and tag styles end --------------------------------------  */
+
+/* --------------------------------  container beginning --------------------------------------  */
+/* --------------------------------  container beginning --------------------------------------  */
+#container {   }
+.content { width:100%;  clear:both;margin:10px 0px; }
+#ad1 .left { float:left; background:url(../images/home_content_left.gif) no-repeat left; width:11px; height:264px; }
+#ad1 .right { float:left; background:url(../images/home_content_right.gif) no-repeat left; width:17px; height:264px; }
+.homeContent { float:left; width:932px; height:264px; background:url(../images/home_content_center.gif) repeat-x center; }
+.homePart1 { float:left; width:400px; padding:30px; line-height:2em; border-right:1px solid #ddd; height:192px; }
+.homePart2 { float:left; width:400px; padding:30px; line-height:2em; }
+
+.homeContent .title { font-size:11pt; font-weight:bold; border-bottom:1px dotted #999;  }
+.homeContent .title a{ color:#285F0C; text-decoration:none; }
+.homeContent .title a:hover { text-decoration:underline;color:#C30;  }
+.homeContent .title .more a {color:#999; font-size:9pt; padding-left:250px; font-weight:normal; }
+.homeContent .title .more a:hover { color:#C30;  }
+.homeContent ul { margin:20px 0px 0px 0px;padding-left:20px; list-style:url(../images/triangle.gif); }
+.homeContent p { padding-top:20px; }
+#homeImg { background:url(../images/home_center.png) center repeat-x; height:273px; width:960px; position:relative; }
+.home_left {background:url(../images/home_left.png) center left no-repeat; height:273px; width:13px; position:absolute; top:0px; left:0px;}
+.home_right {background:url(../images/home_right.png) center right no-repeat; height:273px; width:13px; position:absolute; top:0px; left:947px;}
+/*.home_0 { float:left; width:50px; background:url(../images/home_triangle_1.gif) bottom no-repeat; height:260px; }
+.home_00 { float:left; width:50px; background:url(../images/home_triangle_2.gif) bottom no-repeat; height:260px; }*/
+.home_1 { float:left; width:855px;  height:273px; text-align:center; }
+
+.imgAbout { background:url(../images/enabout_01.jpg) no-repeat center; width:960px; height:173px; line-height:173px; font-size:20pt; font-weight:bold; color:#fff; }
+.imgNews { background:url(../images/news.jpg) no-repeat center; width:960px; height:173px; line-height:173px; font-size:20pt; font-weight:bold; color:#fff; }
+.imgAbout span { padding-left:80px; }
+.part { float:left; width:700px;  }
+.part .top { background:url(../images/top.gif) top no-repeat; width:700px; height:18px; }
+.part .bottom { background:url(../images/bottom.gif) center no-repeat; width:700px; height:20px; margin-bottom:10px; }
+.part .article { padding:30px; line-height:2em;border-right:1px solid #ddd; border-left:1px solid #ddd;   }
+
+.secondaryMenu {float:left; margin-top:50px;text-align:center; line-height:2em; font-size:10pt;width:171px; margin-left:28px;   }
+.secondaryMenu ul { margin:0px; padding:0px; list-style:none;  }
+.secondaryMenu li { border-bottom:1px dotted #ddd;height:41px; line-height:41px; }
+.secondaryMenu a { color:#666; text-decoration:none;height:41px; line-height:41px; }
+.secondaryMenu .selected {background:url(../images/sencondary_menu_bg.gif) left no-repeat;  height:41px; line-height:41px; font-weight:bold; }
+.secondaryMenu .selected a {  color:#fff;  }
+.secondaryMenu li a:hover {   height:41px; line-height:41px;  font-weight:bold; text-decoration:underline; color:#C30; }
+.homeDiv { margin-top:10px; }
+.post .title h2 { margin-top:12px; font-size:9pt; color:#030; font-weight:normal; }
+.article  h1 {  font-size:1.6em;  }
+.date { color:#999;}
+
+.article img { padding:20px; }
+
+/* --------------------------------  container end --------------------------------------  */
+/* --------------------------------  container end --------------------------------------  */
+
+
+
+/* --------------------------------  header beginning --------------------------------------  */
+#header { margin:0px; padding-top:20px; background:url(../images/header_bg.gif) repeat-x top; position:relative;}
+.logo { background:url(../images/linksens_logo.gif) center no-repeat; width:220px; height:47px;  padding:5px; }
+.language {  position:absolute; top:7px; right:0px;}
+.menu { clear:both; height:43px; background:url(../images/menu_center.gif) center top repeat-x; line-height:43px; position:relative; }
+.menu .left { background:url(../images/menu_left.gif) no-repeat scroll left top; height:43px; width:18px; position:absolute; top:0px; left:0px; z-index:1000;}
+.menu ul {  position:absolute; }
+.menu li { display:inline;  list-style:none; padding:0px 15px;  }
+.menu .right {  width:13px;  background:url(../images/menu_right.gif) no-repeat scroll right top; height:43px;  position:absolute; top:0px; left:949px; }
+.menu .selected { background:url(../images/menu_selected_center.gif) center repeat-x; padding:17px 24px 16px 24px; }
+.menu .selected  a { color:#fff;}
+.menu a { text-decoration:none; color:#666; font-size:10pt; font-weight:bold; }
+
+.menu a:hover { text-decoration:underline; color:#C30;  }
+.containerTop { clear:both;background:url(../images/menu_bottom.gif) repeat-x top  ; width:958px; margin-left:2px; }
+li.current_page_item  { background:url(../images/menu_selected_center.gif) center repeat-x;padding:17px 24px 16px 24px; }
+li.current_page_item a { color:#fff;}
+/* --------------------------------  header end --------------------------------------  */
+
+
+
+
+/* --------------------------------  footer beginning --------------------------------------  */
+#footer { clear:both;height:20px; line-height:20px;color:#999; width:960px; margin:10px auto; font-size:9pt;}
+.footerMenu { float:left ; width:600px; }
+#footer a { color:#999; text-decoration:none; }
+#footer a:hover { color:#C30;  text-decoration:underline; }
+#footer li { float:left; list-style:none; padding:0px 20px; border-right:1px solid #ccc; }
+#footer li.current_page_item  { background:none; }
+#footer .copyright { float:right; padding-right:10px; }
+/* --------------------------------  footer end --------------------------------------  */
+
+/*  --------------------------sidebar styles beginning------------------------------------ */
+#sidebar { float:left; width:245px;  margin-left:10px;}
+
+.latest .title { width:245px; height:36px; background:url(../images/sidebar_top.gif) center no-repeat; }
+
+.latest .title_contact { width:245px; height:36px; background:url(../images/sidebar_contact.gif) center no-repeat; }
+.latest .bottom { width:245px; height:11px; background:url(../images/sidebar_bottom.gif) center no-repeat; }
+#sidebar ul { padding:10px 4px 10px 20px;  margin:0px; border-right:1px solid #ddd; border-left:1px solid #ddd; }
+#sidebar li a{
+	/*color:#000;超文字超链接的颜色*/
+    display:block;/*定义为块级*/
+    width:180px;/*要显示文字的宽度*/
+   
+    overflow:hidden; /*超出的部分隐藏起来。*/
+    white-space:nowrap;/*不显示的地方用省略号...代替*/
+    padding-right:7px; /*文字距离右侧7像素。*/
+    text-overflow:ellipsis;/* 支持 IE */
+   -o-text-overflow: ellipsis;    /* 支持 Opera */
+}
+/*#sidebar li:after{content:"...";}/* 支持 Firefox */
+#sidebar li { line-height:2em; border-bottom:1px dashed #ccc; line-height:2.5em; }
+/*  --------------------------sidebar styles end---------------------------------------------- */
+
+/*  --------------------------Background editing styles beginning---------------------------------------------- */
+.imgIntro { text-align:center; color:#666; }
+.source { color:#999; }
+/*  --------------------------Background editing styles end---------------------------------------------- */
+.whyDiv { margin:0px; padding:0px; height:10px; }
+.newsTitle li{ margin:0px; padding:0px; height:40px; line-height:40px; }

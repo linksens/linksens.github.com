@@ -1,0 +1,58 @@
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+	
+	.panel p { margin:0px; padding:0px;  }
+	
+	noscript div { background: #ccc;  }
+	
+
+
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { width:934px; position:absolute; top:0px; left:13px; height:273px; }
+	.coda-slider {  float:left; width:886px;  left:24px; }
+
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider {  overflow: auto !important; }
+
+	/* Change the width of the entire slider (without dynamic arrows) */
+
+
+	/* Change margin and width of the slider (with dynamic arrows) */
+	 .coda-slider-wrapper.arrows .coda-slider .panel { width: 934px }
+
+	/* Arrow styling */
+	.coda-nav-left {float:left; background:url(../images/flash_left.gif) no-repeat left; border:2px solid blue; width:24px; height:23px; border:0px;  position:absolute; top:220px; left:0px;}
+	.coda-nav-right {float:right; background:url(../images/flash_right.gif) no-repeat left; border:2px solid blue; width:24px; height:23px; border:0px; position:absolute; top:220px; left:910px;  }
+
+	/* Tab nav */
+	.coda-nav ul li a.current { background: #39c }
+
+	/* Panel padding */
+	.coda-slider .panel-wrapper {  }
+
+	/* Preloader */
+	.coda-slider p.loading { text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.coda-nav ul li { display: inline }
+	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; text-decoration: none }
+
+	/* Miscellaneous */
+	.coda-slider-wrapper { clear: both; overflow: auto }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left;   }
+	.coda-slider .panel-container { position: relative }
+	
+	/*       news styles */
+	#coda-slider-1 {  float:left;}
+
+
