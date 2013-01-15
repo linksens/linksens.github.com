@@ -74,10 +74,21 @@ h1 { font-size:1.5em; }
 .secondaryMenu li a:hover {   height:41px; line-height:41px;  font-weight:bold; text-decoration:underline; color:#C30; }
 .homeDiv { margin-top:10px; }
 .post .title h2 { margin-top:12px; font-size:9pt; color:#030; font-weight:normal; }
-.article  h1 {  font-size:1.6em;  }
+.article  h1 {  font-size:1.8em; font-family: 'CartoGothicStdBook', Arial, Helvetica, sans-serif; }
+
+.article  h2 {  font-size:1.5em; font-family: 'CartoGothicStdBook', Arial, Helvetica, sans-serif; }
 .date { color:#999;}
 
 .article img { padding:20px; }
+
+.article a {
+color: #285F0C;
+text-decoration: none;
+}
+.article a:hover {
+text-decoration: underline;
+color: #C30;
+}
 
 /* --------------------------------  container end --------------------------------------  */
 /* --------------------------------  container end --------------------------------------  */
